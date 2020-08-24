@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/cardFile">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tv_subject"
+        android:background="@android:color/holo_green_light"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tv_text"
+        android:background="@android:color/holo_orange_light"/>
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tv_file"
+        android:background="@android:color/holo_purple"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
